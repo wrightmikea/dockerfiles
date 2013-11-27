@@ -14,6 +14,7 @@ jenkins:
 * cd to the jenkins directory
 * make a work directory to match the dockerfile (mkdir ~/jenkins-work)
 * build the image (./build.sh)
+* tag the image (docker tag '''id''' ubuntu-jdk17-jenkins)
 * run the image (./run.sh)
 * connect to the running jenkins on port 8080 at the IP address shown
 (e.g. browse http://172.17.0.10:8080/)
